@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(176, 216, 15);
+  font-family: "Times New Roman", Times, serif;
+}
+.search {
+  padding-top: 25px;
+}
+.box1 {
+  background-color: rgb(251, 255, 255);
+  width: auto;
+  height: 250px;
+  padding-top: 10px;
+  margin: 0px 0px 20px 0px;
+}
+.side {
+  float: left;
+}
+.btn {
+  background-color: black;
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+span {
+  font-size: 20px;
+}
+
+.text {
+  margin: 20px 0px;
+}
+
+a {
+  border-bottom: 2px solid blue;
+  text-decoration: none !important;
+}
+
+.box {
+  padding: 70px 20px 10px 25px;
+}
+@media (max-width: 567px) {
+  .side {
+    float: none !important;
+    align-items: center;
+  }
+  .box1 {
+    height: 350px;
+  }
+  input {
+    width: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .side {
+    float: none !important;
+    align-items: center;
+  }
+  .box1 {
+    height: 350px;
+  }
+  input {
+    width: 100px;
+  }
+}
